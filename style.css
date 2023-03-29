@@ -1,0 +1,347 @@
+:root {
+    color: rgb(255, 255, 255);
+    dark green; --header: rgb(3, 22, 15);
+    body; --body: rgb(8, 42, 31);
+    darkgreen img-background; --imagebg: rgb(12, 49, 36);
+    green; --kektext: rgb(54, 165, 36);
+    font-family: 'Rubik', sans-serif;
+
+/* CARDS FOR FEATURES */
+-TOP SECTION;
+--cardtop: rgb(0, 75, 73); opacity: 56;
+--cardbottom: rgb(2, 48, 32);  opacity: 56;
+
+/* COMMUNITY CARDS */
+--cardcolor: rgb(3, 65, 57);
+--cardborder: rgb(54, 165, 36);
+
+/* FOOTER */
+--footer: rgb(13, 12, 19)
+
+}
+body {
+    background-color: var(--body);
+}
+/* HEADER SECTION */
+.header {
+    display: flex;
+    border-radius: 50px;
+    justify-content: space-between;
+    padding: 10px 3%;
+    margin: 20px 30px;
+    background-color: var(--header);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+.logo> img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.menu> button {
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(rgb(51, 186, 29), rgb(27, 65, 21, 0.41));
+}
+
+/* HERO SECTION */
+.hero> img {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.hero {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    line-height: 10px;
+}
+.hero> h2 {
+    width: 600px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+span {
+    color: var(--kektext);
+}
+
+.hero> button {
+    color: white;
+    margin: 20px 0;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    background: linear-gradient(rgb(51, 186, 29), rgb(27, 65, 21, 0.41));
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    flex: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 5%;
+    margin: 300px 0;
+}
+
+.card {
+    width: 350px;
+    box-shadow: 5px 5px 10px rgb(8, 29, 22, 0.7);
+}
+
+.card-top {
+    background-color: var(--cardtop, 0.56);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+    padding: 30px 0;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card-top> img {
+    width: 20%;
+}
+.feat-desc {
+    background-color: var(--cardbottom, 0.56);
+    height: 200px;
+    font-size: large;
+    padding: 20px 20px;
+    line-height: 20px;
+}
+
+/* WHY KEK SECTIONS */
+.why-kek {
+    display: flex;
+    margin: 100px auto;
+    border: solid none;
+    justify-content: center;
+    
+}
+
+.why {
+    width: 600px;
+    padding: 100px 0 0;
+    line-height: 30px;
+    font-size: larger;
+    letter-spacing: 2px;
+    margin-right: 150px;
+}
+
+.why> h1 {
+    width: 65%;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.kekdev {
+    width: 550px;
+    border-radius: 300px;
+    background-color: var(--imagebg);
+}
+
+/* KEK TOKEN SECTION */
+.kek-token {
+    display: flex;
+    margin: 600px 0;
+    flex: 1fr 1fr;
+    justify-content: center;
+}
+
+.purchase {
+    text-align: center;
+    font-size: 30px;
+    padding-right: 150px;
+}
+
+.buy-kek {
+    margin-bottom: 100px;
+font-size: 50px;
+font-weight: bold;
+}
+
+.uniswap-img {
+    margin: 50px 0;
+    padding: 20px 20px;
+    background: var(--imagebg);
+    border-radius: 100%;
+
+   }
+
+.store-kek {
+    text-align: center;
+    padding-left: 150px;
+    border-left: dashed var(--imagebg);
+}
+
+.store-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 150px;
+    margin-bottom: 100px;
+}
+
+.supported-wallets {
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1;
+    
+
+}
+.flex1 {
+    display: ;
+    
+    padding-left: 150px;
+    justify-content: space-around;
+}
+.flex2 {
+    display: flex;
+    
+    column-gap: 50%;
+}
+
+.kek-title {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+/* DEPLOY KEK */
+.deploy-kek {
+    margin-bottom: 250px;
+    display: grid;
+    border-radius: 50px;
+    justify-items: center;
+    border: solid var(--cardbottom);
+    grid-template-columns:1fr 1fr 1fr ;
+    column-gap: 80px;
+}
+.grid> h2 {
+    font-size: 40px;
+}
+.grid> h3 {
+    width: 600px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+/* KEK COMMUNITIES */
+.kek-communities {
+    display: flex;
+    flex: 590px 895px;
+    padding-bottom: 250px;
+    justify-content: center;
+    column-gap: 00px;
+    background: linear-gradient(var(--body), var(--footer));
+}
+.desc {
+    width: 590px;
+    margin-right: 150px;
+}
+.desc> h1 {
+    font-size: 100px;
+    line-height: 80px;
+}
+.desc> p {
+    font-size: 40px;
+    color: gainsboro;
+}
+
+.social-cards {
+    display: grid;
+    width: 895px;
+    grid-template-columns: 400px 400px;
+    row-gap: 40px;
+    
+    column-gap: 80px;
+}
+
+.social-cards> .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    border-bottom: solid rgba(172, 255, 47, 0.248);
+    background-color: var(--cardbottom);
+    padding: 0 30px;
+}
+
+.social-cards> .cards> img {
+    width: 80px;
+    height: 80px;
+}
+
+.social-cards> .cards> div {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    gap: 10px;
+}
+
+/* FOOTER SECTION */
+.footer {
+    background-color: var(--footer);
+    display: flex;
+    column-gap: 20%;
+    border-top: solid var(--cardbottom), 0.5;
+    padding: 150px 150px 200px;
+}
+
+.logoname {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logoname> img {
+    height: ;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.site-id {
+    width: 600px;
+    font-size: 25px;
+}
+
+.site-map {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.map-title {
+    font-size: xx-large;
+    color: rgb(135, 135, 135);
+}
+
+ul {
+    font-size: larger;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+ul> img {
+    width: 30px;
+    margin-right: 10px;
+}

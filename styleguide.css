@@ -1,0 +1,53 @@
+
+
+--header: #052a1d  hsl(159,79%,9%)   rgb(5,42,29)
+
+--body: #0c3829  hsl(160,65%,13%)  rgb(12,56,41)
+
+--imagebackground: rgb(14, 52, 39)
+
+--green kektext: rgb(54, 165, 36)
+
+ 
+/* CARDS FOR FEATURES */
+
+-TOP SECTION
+#004B49 rgb(0, 75, 73) opacity: 56
+
+-BOTTOM SECTION: rgb(2, 48, 32)  opacity: 56
+
+
+/* COMMUNITY CARDS */
+--cardcolor: rgb(3, 65, 57)
+--cardborder: rgb(54, 165, 36)
+
+/* FOOTER */
+--footer: rgb(13, 12, 19)
+
+
+color: rgb(255, 255, 255);
+dark green; --header: rgb(5,42,29);
+body; --body: rgb(12,56,41);
+darkgreen img-background; --imagebg: rgb(14, 52, 39);
+-green kektext: rgb(54, 165, 36)
+
+/* CARDS FOR FEATURES */
+-TOP SECTION
+--cardtop: rgb(0, 75, 73); opacity: 56
+--cardbottom: rgb(2, 48, 32);  opacity: 56
+
+/* COMMUNITY CARDS */
+--cardcolor: rgb(3, 65, 57);
+--cardborder: rgb(54, 165, 36);
+
+/* FOOTER */
+--footer: rgb(13, 12, 19)
+
+/* 
+EMBED FIGMA CODE
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FazR4PlfXwxDCvIst0vX6At%2FUntitled%3Fnode-id%3D0%253A1%26t%3DuxQ0mjJMuQFJBvVW-1" allowfullscreen></iframe>
+
+FILE LINK
+https://www.figma.com/file/azR4PlfXwxDCvIst0vX6At/Untitled?node-id=0%3A1&t=uxQ0mjJMuQFJBvVW-1
+
+*/
